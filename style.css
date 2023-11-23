@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+
+
+
+
+.mario{
+
+    height: 600px;
+
+}
+
+
+.logo{
+    width: 300px;
+}
+
+.caixa-principal{
+
+    width: 40%;
+}
+
+.caixa-video-mario{
+    position: fixed;
+    top:0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+video{
+    position: fixed;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.mascara{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+
+p{
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+
+}
+
+.entre-em-contato{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #C51111;
+    color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.fale-conosco{
+    background-color: white;
+    display: flex;
+    flex-direction: column;    
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    position: fixed;
+    left: -320px;
+    transition: 0.5s;
+    z-index: 4;
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    padding-left: 10px;
+    outline-color :  rebeccapurple;
+    width: 300px;
+
+}
+
+textarea{
+    height: 90px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+    outline-color :rebeccapurple;
+}
+
+.button-enviar{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #C51111;
+    color: white;
+    border-radius: 4px;
+    
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.mascara-form {
+    visibility:hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
